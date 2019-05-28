@@ -1,0 +1,190 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'PTSans', sans-serif;
+  src: url("../font/PT_Sans/PT_Sans-Web-Regular.ttf"); }
+
+body {
+  font-size: 14px;
+  font-family: "PT Sans", sans-serif;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+/*Header*/
+.header {
+  width: 100%;
+  background-color: #dcdcdc; }
+
+.container {
+  width: 1000px;
+  padding: 0 10px;
+  margin: 0 auto;
+  display: flex; }
+
+.logo-site {
+  padding: 65px 0;
+  margin-right: auto; }
+
+.telephone {
+  font-size: 40px;
+  align-self: center;
+  margin-left: auto; }
+  .telephone h4 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 0;
+    color: #767676; }
+
+/*Top menu*/
+.menu {
+  width: 100%;
+  background-color: #777777;
+  margin-bottom: auto; }
+
+.content-menu {
+  justify-content: center;
+  padding: 26px 0 26px 0; }
+  .content-menu ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .content-menu ul li {
+      list-style: none;
+      font-size: 30px;
+      font-weight: 400;
+      color: #ffffff;
+      font-family: "PT Sans", sans-serif;
+      border-left: 2px solid;
+      padding: 0 15px 0 15px;
+      min-height: 27px; }
+      .content-menu ul li a {
+        color: #ffffff;
+        text-decoration: none; }
+      .content-menu ul li a:hover {
+        text-decoration: underline;
+        cursor: pointer; }
+    .content-menu ul li:nth-child(1) {
+      border-left: none; }
+    .content-menu ul li:nth-child(6n) {
+      border-left: none; }
+    .content-menu ul li:nth-child(n+6) {
+      margin-top: 10px; }
+
+/*Slider*/
+.slider {
+  width: 100%;
+  height: 450px;
+  margin-bottom: auto; }
+
+.slider-block {
+  background-image: url("../img/Слой_6_kопировать.jpg");
+  background-repeat: no-repeat;
+  background-position: center; }
+  .slider-block div {
+    height: 450px; }
+
+/*Content*/
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 30px 0 195px 0;
+  margin-bottom: auto; }
+  .content .left-col {
+    color: #ffffff;
+    background-color: #777777;
+    min-width: 265px;
+    max-width: 265px;
+    margin: 0 auto 0 0;
+    padding: 22px 52px 0 33px; }
+
+.left-col-block {
+  font-family: "PTSans",sans-serif;
+  margin: 0; }
+  .left-col-block h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 38px; }
+  .left-col-block dl {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0; }
+    .left-col-block dl dt {
+      font-style: italic; }
+    .left-col-block dl dd {
+      margin: 0;
+      padding-bottom: 30px; }
+  .left-col-block p {
+    margin: 0;
+    padding-bottom: 100px;
+    text-align: right;
+    text-decoration: underline; }
+
+.right-col {
+  padding: 20px 0 0 50px;
+  color: #767676;
+  margin-left: auto;
+  min-width: 600px;
+  max-width: 600px; }
+  .right-col h1 {
+    padding: 0 0 20px 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 40px; }
+  .right-col p {
+    padding: 20px 0 20px 0;
+    margin: 0;
+    word-break: break-all; }
+
+/*Footer*/
+.footer {
+  width: 100%;
+  background-color: #777777;
+  color: #ffffff; }
+
+.footer-cont {
+  padding: 50px 0 50px 0;
+  display: flex;
+  flex-wrap: nowrap; }
+
+.copy {
+  width: 200px;
+  margin-right: 150px; }
+  .copy p {
+    margin: 0; }
+  .copy a {
+    color: #ffffff;
+    text-decoration: none; }
+
+.footer-menu {
+  margin-right: 285px; }
+  .footer-menu ul {
+    margin: 0;
+    padding: 0; }
+    .footer-menu ul li {
+      list-style: none;
+      text-decoration: underline;
+      line-height: 26px;
+      letter-spacing: 0.35px; }
+      .footer-menu ul li a {
+        color: #ffffff;
+        text-decoration: none; }
+
+.dev-comp {
+  display: flex;
+  height: 40px;
+  margin-left: auto; }
+  .dev-comp img {
+    margin-right: 9px; }
+  .dev-comp p {
+    margin: 0;
+    width: 170px; }
+    .dev-comp p a {
+      color: #ffffff; }
